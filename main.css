@@ -1,5 +1,5 @@
 body{
-    background-color: darksalmon;
+    background-color: lightgrey;
     padding: 0;
     margin: 0;
     text-align: center;
@@ -10,8 +10,9 @@ body{
 }
 
 .navbar{
-    background-color: #eee;
+    background-color: darkslategray;
     display: flex;
+    color: floralwhite;
 }
 .navbar h1{
     padding: 0 20px;
@@ -22,6 +23,7 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
+    font-weight: bolder;
 }
 
 .nav-item a{
@@ -33,15 +35,14 @@ body{
     text-decoration: none;
 }
 .nav-item a:hover{
-    color: whitesmoke;
-    background-color: dimgrey;
+    color: lightgrey;
 }
 
 footer {
     width: 100%;
-    color: #111;
-    background-color: #eee;
-    padding: 20px;
+    color: lightgrey;
+    background-color: darkslategray;
+    padding: 5px;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -53,5 +54,16 @@ footer {
 }
 
 .dogs img{
-    
+    height: 250px;
+    margin: 50px;
+}
+.cats {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.cats img{
+    height: 250px;
+    margin: 50px;
+    border: lightyellow 25px;
 }
